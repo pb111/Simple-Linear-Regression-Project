@@ -49,8 +49,10 @@ In this project, I build a Simple Linear Regression model to study the linear re
 The work done in this Jupyter notebook is made available under the Creative Commons Attribution License 4.0. 
 
 You are free to:
+
 •	Share—copy and redistribute the material in any medium or format
 •	Adapt—remix, transform, and build upon the material.
+
 I have licensed this Jupyter notebook for general public. The work done in this project is for learning and demonstration purposes. 
   
 
