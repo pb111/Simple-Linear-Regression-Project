@@ -1,5 +1,6 @@
 # Simple Linear Regression Project 
 
+
 ## Modelling the linear relationship between Sales and Advertising Datasets 
 
 
@@ -7,6 +8,7 @@ The contents of this project are divided into following topics which are listed 
 
 
 ## Table of Contents
+
 
 1.	Introduction
 2.	License information
@@ -115,7 +117,7 @@ In this equation, X and Y are called independent and dependent variables respect
  
 For simplicity, we can compare the above equation with the basic line equation of the form:-
  
-        y = ax + b       ----------------- (2)
+        			y = ax + b       ----------------- (2)
         
 
 We can see that 
@@ -133,6 +135,8 @@ In this Simple Linear Regression model, we want to fit a line which estimates th
 
 As I have described earlier, the Sales and Advertising data are given by X and y respectively. If we draw a scatter plot of X and y, then it resembles the diagram which looks like as follows:-
 
+
+
  
 Now, our task is to find a line which best fits the above scatter plot. This line will help us to predict the value of any Target variable for any given Feature variable. This line is called regression line. 
 We can define an error function for any line. Then, the regression line is the one which minimizes the error function. Such an error function is also called a Costor a Cost function. 
@@ -141,6 +145,8 @@ We can define an error function for any line. Then, the regression line is the o
 ### Cost Function
 
 We want the above line to resemble the dataset as closely as possible. In other words, we want the line to be as close to actual data points as possible. It can be achieved by minimizing the vertical distance between the actual data point and fitted line. We calculate the vertical distance between each data point and the line. This distance is called the residual. So, in a regression model, we try to minimize the residuals by finding the line of best fit. 
+
+
 Diagrammatic representation of residuals is given below. In this diagram, the residuals are represented by the vertical dotted lines from actual data points to the line.
 
 
@@ -148,11 +154,11 @@ We can try to minimize the sum of the residuals, but then a large positive resid
 
 Mathematically, we denote actual data points by yi and predicted data points by ŷi. So, the residual for a data point i would be given as 
 				
-        di = yi -  ŷi
+       				 di = yi -  ŷi
 
 Sum of the squares of the residuals is given as:
 
-				D = Ʃ di2       for all data points
+				 D = Ʃ di2       for all data points
 
 This is the Cost function. It denotes the total error present in the model which is the sum of the total errors of each individual data point. 
 We can estimate the parameters of the model β0 and β1 by minimize the error in the model by minimizing D. Thus, we can find the regression line given by equation (1).
@@ -224,12 +230,12 @@ where Xi is the Sales data value of the ith observation.
 
 Now, it is the time to evaluate model performance. For regression problems, there are two ways to compute the model performance. They are RMSE (Root Mean Square Error) and R-Squared Value. These are explained below:-  
 
-i.	RMSE
+###	i.	RMSE
 
 RMSE is the standard deviation of the residuals. So, RMSE gives us the standard deviation of the unexplained variance by the model. It can be calculated by taking square root of Mean Squared Error.
 RMSE is an absolute measure of fit. It gives us how spread the residuals are, given by the standard deviation of the residuals. The more concentrated the data is around the regression line, the lower the residuals and hence lower the standard deviation of residuals. It results in lower values of RMSE. So, lower values of RMSE indicate better fit of data. 
 
-ii.	R2 Score
+###	ii.	R2 Score
 
 R2 Score is another metric to evaluate performance of a regression model. It is also called coefficient of determination. It gives us an idea of goodness of fit for the linear regression models. It indicates the percentage of variance that is explained by the model. Mathematically, 
 
@@ -316,18 +322,20 @@ Homoscedasticity describes a situation in which the error term (that is, the noi
 
 ## 18.	 References
 
+
 The concepts and ideas in this project have been taken from the following websites and books:-
+
 
 i.	 Machine learning notes by Andrew Ng
 ii.	 https://en.wikipedia.org/wiki/Linear_regression
-iii. https://en.wikipedia.org/wiki/Simple_linear_regression
+iii. 	 https://en.wikipedia.org/wiki/Simple_linear_regression
 iv.	 https://en.wikipedia.org/wiki/Ordinary_least_squares
 v.	 https://en.wikipedia.org/wiki/Root-mean-square_deviation
 vi.	 https://en.wikipedia.org/wiki/Coefficient_of_determination
-vii.	https://www.statisticssolutions.com/assumptions-of-linear-regression/
-viii.	Python Data Science Handbook by Jake VanderPlas 
-ix.	  Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron 
-x.	  Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
+vii.	 https://www.statisticssolutions.com/assumptions-of-linear-regression/
+viii.	 Python Data Science Handbook by Jake VanderPlas 
+ix.	 Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron 
+x.	 Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
 
 
 
