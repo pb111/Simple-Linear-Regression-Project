@@ -47,6 +47,7 @@ In this project, I build a Simple Linear Regression model to study the linear re
 ## 2.	License information
 
 The work done in this Jupyter notebook is made available under the Creative Commons Attribution License 4.0. 
+
 You are free to:
 •	Share—copy and redistribute the material in any medium or format
 •	Adapt—remix, transform, and build upon the material.
@@ -95,6 +96,7 @@ Independent or Input variable (X) = Feature variable = Predictor variable
 
 
 ### Dependent variable
+
 Dependent variable is also called Output variable and is denoted by y. Dependent variable is also called Target variable or Response variable. It can be denote it as follows: -
 
 Dependent or Output variable (y) = Target variable = Response variable
@@ -293,27 +295,28 @@ iii.	No or little multicollinearity
 iv.	No auto-correlation
 v.	Homoscedasticity
 
-i.	Linear relationship
+
+### i.	Linear relationship
 
 The relationship between response and feature variables should be linear. This linear relationship assumption can be tested by plotting a scatter-plot between response and feature variables.
 
 
-ii.	Multivariate normality
+### ii.	Multivariate normality
 
 The linear regression model requires all variables to be multivariate normal. A multivariate normal distribution means a vector in multiple normally distributed variables, where any linear combination of the variables is also normally distributed.
 
 
-iii.	No or little multicollinearity
+### iii.No or little multicollinearity
 
 It is assumed that there is little or no multicollinearity in the data. Multicollinearity occurs when the features (or independent variables) are highly correlated.
 
 
-iv.	No auto-correlation
+### iv.	No auto-correlation
 
 Also, it is assumed that there is little or no auto-correlation in the data. Autocorrelation occurs when the residual errors are not independent from each other.
 
 
-v.	Homoscedasticity
+### v.	Homoscedasticity
 
 Homoscedasticity describes a situation in which the error term (that is, the noise in the model) is the same across all values of the independent variables. It means the residuals are same across the regression line. It can be checked by looking at scatter plot.
 
@@ -326,16 +329,16 @@ Homoscedasticity describes a situation in which the error term (that is, the noi
 The concepts and ideas in this project have been taken from the following websites and books:-
 
 
-i.	 Machine learning notes by Andrew Ng
-ii.	 https://en.wikipedia.org/wiki/Linear_regression
-iii. 	 https://en.wikipedia.org/wiki/Simple_linear_regression
-iv.	 https://en.wikipedia.org/wiki/Ordinary_least_squares
-v.	 https://en.wikipedia.org/wiki/Root-mean-square_deviation
-vi.	 https://en.wikipedia.org/wiki/Coefficient_of_determination
-vii.	 https://www.statisticssolutions.com/assumptions-of-linear-regression/
-viii.	 Python Data Science Handbook by Jake VanderPlas 
-ix.	 Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron 
-x.	 Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
+### i.	 Machine learning notes by Andrew Ng
+### ii.	 https://en.wikipedia.org/wiki/Linear_regression
+### iii. https://en.wikipedia.org/wiki/Simple_linear_regression
+### iv.	 https://en.wikipedia.org/wiki/Ordinary_least_squares
+### v.	 https://en.wikipedia.org/wiki/Root-mean-square_deviation
+### vi.	 https://en.wikipedia.org/wiki/Coefficient_of_determination
+### vii  https://www.statisticssolutions.com/assumptions-of-linear-regression/
+### viii.Python Data Science Handbook by Jake VanderPlas 
+### ix.	 Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron 
+### x.	 Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
 
 
 
