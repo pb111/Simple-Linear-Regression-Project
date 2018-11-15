@@ -144,32 +144,59 @@ As I have described earlier, the Sales and Advertising data are given by X and y
 
 ![](Images/Scatter%20plot%20of%20X%20and%20y.png)
 
+
+
  
 Now, our task is to find a line which best fits the above scatter plot. This line will help us to predict the value of any Target variable for any given Feature variable. This line is called regression line. 
 We can define an error function for any line. Then, the regression line is the one which minimizes the error function. Such an error function is also called a Costor a Cost function. 
 
 
+
+
 ### Cost Function
+
+
 
 We want the above line to resemble the dataset as closely as possible. In other words, we want the line to be as close to actual data points as possible. It can be achieved by minimizing the vertical distance between the actual data point and fitted line. We calculate the vertical distance between each data point and the line. This distance is called the residual. So, in a regression model, we try to minimize the residuals by finding the line of best fit. 
 
 
+
+
 Diagrammatic representation of residuals is given below. In this diagram, the residuals are represented by the vertical dotted lines from actual data points to the line.
+
+
+
+
+![](Images/Diagrammatic%20Representation%20of%20Residuals.png)
+
+
 
 
 We can try to minimize the sum of the residuals, but then a large positive residual would cancel out a large negative residual. For this reason, we minimize the sum of the squares of the residuals. 
 
 Mathematically, we denote actual data points by yi and predicted data points by ŷi. So, the residual for a data point i would be given as 
 				
-       				 di = yi -  ŷi
+       				
+				di = yi -  ŷi
+				
 
 Sum of the squares of the residuals is given as:
 
+
 				 D = Ʃ di2       for all data points
 
-This is the Cost function. It denotes the total error present in the model which is the sum of the total errors of each individual data point. 
-We can estimate the parameters of the model β0 and β1 by minimize the error in the model by minimizing D. Thus, we can find the regression line given by equation (1).
-This method of finding the parameters of the model and thus regression line is called Ordinary Least Square Method.
+This is the Cost function. It denotes the total error present in the model which is the sum of the total errors of each individual data point. We can represent it diagrammatically as follows:-
+
+
+
+
+![](Images/Ordinary%20Least%20Squares.png)
+
+
+
+
+We can estimate the parameters of the model β0 and β1 by minimize the error in the model by minimizing D. Thus, we can find the regression line given by equation (1).  This method of finding the parameters of the model and thus regression line is called Ordinary Least Square Method.
+
 
 
 
