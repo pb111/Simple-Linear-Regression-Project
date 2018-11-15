@@ -140,6 +140,8 @@ As I have described earlier, the Sales and Advertising data are given by X and y
 
 
 
+
+
  
 Now, our task is to find a line which best fits the above scatter plot. This line will help us to predict the value of any Target variable for any given Feature variable. This line is called regression line. 
 We can define an error function for any line. Then, the regression line is the one which minimizes the error function. Such an error function is also called a Costor a Cost function. 
