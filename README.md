@@ -68,6 +68,7 @@ I have Anaconda Python distribution installed on my system. It comes with most o
 
 
 
+
 ## 4.	The problem statement
 
 The aim of building a machine learning model is to solve a problem and to define a metric to measure model performance. So, first of all I have to define the problem to be solved in this project.
