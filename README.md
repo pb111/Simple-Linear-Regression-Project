@@ -142,7 +142,7 @@ As I have described earlier, the Sales and Advertising data are given by X and y
 
 
 
-
+![](Images/Scatter%20plot%20of%20X%20and%20y.png)
 
  
 Now, our task is to find a line which best fits the above scatter plot. This line will help us to predict the value of any Target variable for any given Feature variable. This line is called regression line. 
