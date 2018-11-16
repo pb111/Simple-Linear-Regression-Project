@@ -7,6 +7,8 @@
 The contents of this project are divided into following topics which are listed as follows:- 
 
 
+
+
 ## Table of Contents
 
 
@@ -62,10 +64,13 @@ I have licensed this Jupyter notebook for general public. The work done in this 
 
 I have Anaconda Python distribution installed on my system. It comes with most of the standard Python libraries I need for this project. The basic Python libraries used in this project are:-
 
-#### •	Numpy – It provides a fast numerical array structure and operating functions.
-#### •	pandas – It provides tools for data storage, manipulation and analysis tasks.
-#### •	Scikit-Learn – The required machine learning library in Python.
-#### •	Matplotlib – It is the basic plotting library in Python. It provides tools for making plots. 
+ •	Numpy – It provides a fast numerical array structure and operating functions.
+ 
+ •	pandas – It provides tools for data storage, manipulation and analysis tasks.
+ 
+ •	Scikit-Learn – The required machine learning library in Python.
+ 
+ •	Matplotlib – It is the basic plotting library in Python. It provides tools for making plots. 
 
 
 
@@ -361,16 +366,25 @@ Homoscedasticity describes a situation in which the error term (that is, the noi
 The concepts and ideas in this project have been taken from the following websites and books:-
 
 
-#### i.	 Machine learning notes by Andrew Ng
-#### ii. https://en.wikipedia.org/wiki/Linear_regression
-#### iii.https://en.wikipedia.org/wiki/Simple_linear_regression
-#### iv  https://en.wikipedia.org/wiki/Ordinary_least_squares
-#### v.	 https://en.wikipedia.org/wiki/Root-mean-square_deviation
-#### vi. https://en.wikipedia.org/wiki/Coefficient_of_determination
-#### vii https://www.statisticssolutions.com/assumptions-of-linear-regression/
-#### viii.Python Data Science Handbook by Jake VanderPlas 
-#### ix. Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron 
-#### x.	 Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
+ i.  Machine learning notes by Andrew Ng
+ 
+ ii. https://en.wikipedia.org/wiki/Linear_regression
+ 
+ iii.https://en.wikipedia.org/wiki/Simple_linear_regression
+ 
+ iv  https://en.wikipedia.org/wiki/Ordinary_least_squares
+ 
+ v.  https://en.wikipedia.org/wiki/Root-mean-square_deviation
+ 
+ vi. https://en.wikipedia.org/wiki/Coefficient_of_determination
+ 
+ vii https://www.statisticssolutions.com/assumptions-of-linear-regression/
+ 
+ viii.Python Data Science Handbook by Jake VanderPlas
+ 
+ ix. Hands-On Machine Learning with Scikit Learn and Tensorflow by Aurilien Geron
+ 
+ x.  Introduction to Machine Learning with Python by Andreas C Muller and Sarah Guido
 
 
 
