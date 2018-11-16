@@ -1,7 +1,7 @@
 # Simple Linear Regression Project 
 
 
-## Modelling the linear relationship between Sales and Advertising Datasets 
+## Modelling the linear relationship between Sales and Advertising Dataset
 
 &nbsp; &nbsp; &nbsp; &nbsp;
 
