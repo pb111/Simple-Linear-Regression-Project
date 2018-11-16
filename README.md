@@ -3,6 +3,8 @@
 
 ## Modelling the linear relationship between Sales and Advertising Datasets 
 
+&nbsp; &nbsp; &nbsp; &nbsp;
+
 
 The contents of this project are divided into following topics which are listed as follows:- 
 
@@ -33,18 +35,14 @@ ii.	    R2 Score
 17.	Simple Linear Regression - Model Assumptions
 18.	References
 
-
-
-
-
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 1.	Introduction
 
 In this project, I build a Simple Linear Regression model to study the linear relationship between Sales and Advertising dataset for a dietary weight control product. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language. 
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 2.	License information
 
@@ -57,7 +55,7 @@ You are free to:
 
 I have licensed this Jupyter notebook for general public. The work done in this project is for learning and demonstration purposes. 
   
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 3.	Python libraries
@@ -73,8 +71,7 @@ I have Anaconda Python distribution installed on my system. It comes with most o
  •	Matplotlib – It is the basic plotting library in Python. It provides tools for making plots. 
 
 
-
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 4.	The problem statement
 
@@ -82,7 +79,7 @@ The aim of building a machine learning model is to solve a problem and to define
 As described earlier, the problem is to model and investigate the linear relationship between Sales and Advertising dataset for a dietary weight control product. I have used two performance metrics RMSE (Root Mean Square Value) and R2 Score value to compute our model performance.
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 5.	Linear Regression
 
@@ -90,7 +87,7 @@ Linear Regression is a statistical technique which is used to find the linear re
 Linear Regression can be further classified into two types – Simple and Multiple Linear Regression. In this project, I employ Simple Linear Regression technique where I have one independent and one dependent variable. It is the simplest form of Linear Regression where we fit a straight line to the data.
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 6.	Independent and Dependent Variables
 
@@ -110,7 +107,7 @@ Dependent variable is also called Output variable and is denoted by y. Dependent
 Dependent or Output variable (y) = Target variable = Response variable
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 7.	Simple Linear Regression (SLR)
 
@@ -145,7 +142,7 @@ In this Simple Linear Regression model, we want to fit a line which estimates th
 
 As I have described earlier, the Sales and Advertising data are given by X and y respectively. If we draw a scatter plot of X and y, then it resembles the diagram which looks like as follows:-
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ![](Images/Scatter%20plot%20of%20X%20and%20y.png)
 
@@ -155,7 +152,7 @@ As I have described earlier, the Sales and Advertising data are given by X and y
 Now, our task is to find a line which best fits the above scatter plot. This line will help us to predict the value of any Target variable for any given Feature variable. This line is called regression line. 
 We can define an error function for any line. Then, the regression line is the one which minimizes the error function. Such an error function is also called a Costor a Cost function. 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ### Cost Function
@@ -165,16 +162,14 @@ We can define an error function for any line. Then, the regression line is the o
 We want the above line to resemble the dataset as closely as possible. In other words, we want the line to be as close to actual data points as possible. It can be achieved by minimizing the vertical distance between the actual data point and fitted line. We calculate the vertical distance between each data point and the line. This distance is called the residual. So, in a regression model, we try to minimize the residuals by finding the line of best fit. 
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 Diagrammatic representation of residuals is given below. In this diagram, the residuals are represented by the vertical dotted lines from actual data points to the line.
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ![](Images/Diagrammatic%20Representation%20of%20Residuals.png)
-
-
 
 
 We can try to minimize the sum of the residuals, but then a large positive residual would cancel out a large negative residual. For this reason, we minimize the sum of the squares of the residuals. 
@@ -192,18 +187,15 @@ Sum of the squares of the residuals is given as:
 
 This is the Cost function. It denotes the total error present in the model which is the sum of the total errors of each individual data point. We can represent it diagrammatically as follows:-
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ![](Images/Ordinary%20Least%20Squares.png)
 
 
-
-
 We can estimate the parameters of the model β0 and β1 by minimize the error in the model by minimizing D. Thus, we can find the regression line given by equation (1).  This method of finding the parameters of the model and thus regression line is called Ordinary Least Square Method.
 
-
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 8.	About the dataset
@@ -217,7 +209,7 @@ http://www.econometrics.com/intro/sales.htm
 This data set contains Sales and Advertising expenditures for a dietary weight control product. It contains monthly data for 36 months. 
 The variables in this data set are Sales and Advertising.
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 9.	Exploratory data analysis
@@ -226,14 +218,14 @@ First, I import the dataset into the dataframe with the standard read_csv () fun
 I checked the dimensions of dataframe with the shape attribute of the dataframe. I viewed the top 5 rows of the dataframe with the pandas head() method. I viewed the dataframe summary with the pandas info() method and descriptive statistics with the describe() method. 
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 10.	Mechanics of Simple Linear Regression
 
 The mechanics of Simple Linear Regression model starts with splitting the dataset into two sets – the training set and the test set. We instantiate the regressor lm and fit it on the training set with the fit method. In this step, the model learned the correlations between the training data (X_train, y_train). 
 Now the model is ready to make predictions on the test data (X_test). Hence, I predict on the test data using the predict method. 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 11.	Model slope and intercept term
@@ -245,7 +237,7 @@ So, the equation of the fitted regression line is
 y = 1.60509347 * x - 11.16003616  
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 12.	Making predictions
 
@@ -261,7 +253,7 @@ To make prediction, on an individual Sales value, I write
 
 where Xi is the Sales data value of the ith observation.
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 
@@ -285,7 +277,7 @@ R2 Score = Explained Variation/Total Variation
 In general, the higher the R2 Score value, the better the model fits the data. Usually, its value ranges from 0 to 1. So, we want its value to be as close to 1. Its value can become negative if our model is wrong.
 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 ## 14.	Interpretation and Conclusion
 
@@ -293,7 +285,7 @@ The RMSE value has been found to be 11.2273. It means the standard deviation for
 
 In business decisions, the benchmark for the R2 score value is 0.7. It means if R2 score value >= 0.7, then the model is good enough to deploy on unseen data whereas if R2 score value < 0.7, then the model is not good enough to deploy. Our R2 score value has been found to be .5789. It means that this model explains 57.89 % of the variance in our dependent variable. So, the R2 score value confirms that the model is not good enough to deploy because it does not provide good fit to the data.
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 15.	Residual analysis
@@ -307,7 +299,7 @@ If the data points in a residual plot are randomly dispersed around horizontal a
 If we take a look at the generated ‘Residual errors’ plot, we can clearly see that the train data plot pattern is non-random. Same is the case with the test data plot pattern.
 So, it suggests a better-fit for a non-linear model. 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 16.	Checking for Overfitting and Underfitting
@@ -317,7 +309,7 @@ The training set score is very poor. So, the model does not learn the relationsh
 
 Underfitting means our model performs poorly on the training data. It means the model does not capture the relationships between the training data. This problem can be improved by increasing model complexity. We should use more powerful models like Polynomial regression to increase model complexity. 
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 17.	Simple Linear Regression - Model Assumptions
@@ -357,7 +349,7 @@ Also, it is assumed that there is little or no auto-correlation in the data. Aut
 
 Homoscedasticity describes a situation in which the error term (that is, the noise in the model) is the same across all values of the independent variables. It means the residuals are same across the regression line. It can be checked by looking at scatter plot.
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 ## 18.	 References
