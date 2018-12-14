@@ -319,9 +319,13 @@ The Linear Regression Model is based on several assumptions which are listed bel
 
 
 i.	Linear relationship
+
 ii.	Multivariate normality
+
 iii.	No or little multicollinearity
+
 iv.	No auto-correlation
+
 v.	Homoscedasticity
 
 
